@@ -3,19 +3,19 @@
 **Domain:** Supply Chain / Data Engineering / Logistics  
 ![Maersk Analysis](Maersk_Delay_Impact_Analysis.png)
 ## 📌 Project Overview
-This project analyzes maritime logistics data to identify fuel inefficiencies across West African trade routes. By calculating **Fuel Consumption per TEU**, the system flags specific voyages and ports that are operating above the expected cost-baseline.
+This project analyzes maritime logistics data to identify fuel consumption patterns across West African trade routes. By calculating **Fuel Consumption per TEU**, the system evaluates operational performance at key regional ports.
 
 ## 🛠️ Technical Stack
 - **Language:** R (Tidyverse)
-- **Methodology:** Data aggregation and fuel-to-cargo ratio analysis.
-- **KPIs:** Liters per TEU (Twenty-foot Equivalent Unit) and Port Delay impact.
+- **Methodology:** Multivariate data aggregation and efficiency-ratio modeling.
+- **KPIs:** Liters per TEU (Twenty-foot Equivalent Unit) and Port Delay Impact.
 
-## 📊 Comparison: Lagos vs. Abidjan
-The analysis revealed a significant variance in operational efficiency:
-* **Abidjan:** Higher efficiency due to lower port delay hours.
-* **Lagos:** Identified as a "High-Friction" zone where ships burn more fuel per container due to idling and congestion.
+## 📊 Key Findings: Lagos vs. Abidjan
+The current dataset provides a comparative look at regional efficiency:
+* **Lagos:** Demonstrated the **highest operational efficiency** (lowest fuel burn per container) in this specific data cycle.
+* **Abidjan:** Identified as the **high-consumption zone**, where higher fuel burn suggests opportunities for infrastructure or process optimization.
 
 ## 📂 Repository Contents
 - `logistics_optimization.R`: The transformation logic and aggregation script.
 - `maersk_logistics_efficiency.csv`: The processed data with efficiency metrics.
-- `Maersk_Efficiency_Report.png`: Visualization of fuel waste across ports.
+- `Maersk_Efficiency_Report.png`: Visualization of fuel consumption across ports.
