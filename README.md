@@ -1,7 +1,7 @@
 # 🚢 Maersk Logistics: Route Efficiency Optimization
 **Project Lead:** Kolawole Fakeye  
 **Domain:** Supply Chain / Data Engineering / Logistics  
-
+![Maersk Analysis](Maersk_Delay_Impact_Analysis.png)
 ## 📌 Project Overview
 This project analyzes maritime logistics data to identify fuel inefficiencies across West African trade routes. By calculating **Fuel Consumption per TEU**, the system flags specific voyages and ports that are operating above the expected cost-baseline.
 
